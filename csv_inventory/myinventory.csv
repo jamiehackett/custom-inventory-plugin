@@ -1,7 +1,7 @@
-Device Name,Mgmt IP,Location,Function,Platform
-ORDcore01,10.122.1.114,ORD,core,ios
-ORDcore02,10.122.1.115,ORD,core,ios
-ORDdist01,10.122.1.116,ORD,distribution,nxos
+Device Name,Mgmt IP,Location,Function,Platform,env
+ORDcore01,10.122.1.114,ORD,core,ios,test
+ORDcore02,10.122.1.115,ORD,core,ios,prod
+ORDdist01,10.122.1.116,ORD,distribution,nxos,dev
 ORDdist02,10.122.1.117,ORD,distribution,nxos
 ORDagg01,10.122.1.118,ORD,aggregation,nxos
 ORDagg02,10.122.1.119,ORD,aggregation,nxos
