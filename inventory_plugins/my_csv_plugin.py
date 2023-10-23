@@ -84,6 +84,7 @@ consume
             self.inventory.add_host(host=hostname, group=data['Platform'])
             self.inventory.set_variable(hostname, 'ansible_host', data['Mgmt IP'])
             self.inventory.set_variable(hostname, 'ansible_network_os', data['Platform'])
+            self.inventory.set_variable(hostname, 'environment', data['env'])
             
     
     def parse(self, inventory, loader, path, cache):
